@@ -1,33 +1,56 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title> Arthur da Costa Farias</title>
+    <meta charset="UTF-8">
+    <title> Portifólio Pessoal </title>
+    <link rel="stylesheet"
+          href="style.css">
   </head>
   <body>
-    <h1> Hiperlink</h1>
-    <a href=""style="text-decoration:none">site</a>
-    <h2>Imagem</h2>
-    <img src=""alt="descrição imagem">
-    <h2>Imagem como hiperlink</h2>
-    <a href="" style="text-decoration:none"><img src="" alt="imagem hiperlink"></a>
-      <br>
-      <h2>Lista não ordenada</h2>
-    <ul>
-      <li>Primeiro
-        <li> Segundo
-          <h1> Tabela </h1>
-          <div>
-          <table border="0">
-            <tr>
-              <td><a href="https://store.steampowered.com/?l=portuguese" style="text-decoration:none"><img src="https://sm.ign.com/t/ign_br/tag/s/steam/steam_w8vn.300.jpg" width="100px" alt="imagem hiperlink"></a>
+    <header>
+      <h1>Arthur da Costa</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="about">
+      <h2>Sobre</h2>
+      <p>Aprendendo sobre html e fiz alguns projetos com códigos em html e css, tenho o objetivo de me formar na UNB (Universidade de Brasília) em alguma área da engenharia.</p>
+    </section>
+    <section id="projects">
+      <h2>Projetos</h2>
+      <div class="project">
+        <h3>Projeto 1 - Literatura.</h3>
+        <a href="https://codepen.io/arthurdacostafarias/pen/WNgEwgw">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdZ9H9CZQDiYHggf8zrn4RZQ1WsNut0WlrSg&usqp=CAU" alt="Literatura"></a>
+        <p> Este projeto explica sobre o périodo literário Barroco e Romantismo.</p>
+      </div>
+      <div class="project">
+        <h3>Projeto 2 - Autores literários.</h3>
+        <a href="https://codepen.io/arthurdacostafarias/pen/YzJXVXq">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAA3LhRtsLJiPV8cQJiUVH_CaWoRck4OQ1Ow&usqp=CAU" alt="josé de alencar">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYphipeme0sxdf3OUvpxEXdG5p5izhqiGu1g&usqp=CAU" alt="machado de assis">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp286KYKrLTYQFjw_Y3EHMh-Ap_9LprCuBBw&usqp=CAU" alt="graciliano ramos"></a>
+        <p> Este projeto explica sobre a vida dos autores literários José de Alencar, Machado de Assis e Graciliano Ramos.</p>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <form>
+        <label for="email">Email: arthurdacosta22012007@gmail.com</label>
+        <td><a href="https://www.linkedin.com/in/arthur-da-costa-farias-607a59362/" style="text-decoration:none"><img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/LinkedIn_2021.svg" width="150px" alt="linkedin"></a>
               </td>
-              <td><a href="https://instagram.com"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQefH_Odaa4rPHA28CYId38oergiicM9B6cAw&usqp=CAU" width="100px" alt="instagram imagem"></a></td>
-              <td><a href="https://globo.com"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTosg6no6r7dLhvfsBZqaZPzCDHIwa0WBA6QQ&usqp=CAU" width="100px" alt="globo imagem"></a></td>
-            </tr>
-            <tr>
-              <td><a href="https://gamersclub.com.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFOeIsdfIJ7OvXLCzXK4JwLdntLGVDbyKVSQ&usqp=CAU" width="100px" alt="gamersclub imagem"></a></td>
-              <td><a href="https://www.gsuplementos.com.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYyOAObmXCyEsPjj9w-cmRoBkQQ_UR_nOn1A&usqp=CAU" width="100px" alt="growth imagem"></a></td>
-              <td><a href="https://senna.com/piloto/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyUbsIi5GP7XK2i_MJTZluoPQ1IPZD4LY4OA&usqp=CAU" width="100px"</td>
-            </tr>
-          </table>
-            <div>
+              <td><a href="https://instagram.com/_dacost4_"><img src="https://img.freepik.com/vetores-gratis/instagram-icone-novo_1057-2227.jpg?t=st=1746037907~exp=1746041507~hmac=dbbcfa4003ff66a4c6c8e011993f86822024f450a05888dea997ba5e262585eb&w=826" width="120px" alt="instagram imagem"></a></td>
+      </form>
+    </section>
+    <footer>
+      <p>&copy; 2025 - Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+        
